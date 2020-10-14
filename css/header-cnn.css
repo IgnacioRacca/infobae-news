@@ -22,9 +22,16 @@
     display: grid;
     grid-template-columns: 535px 700px;
     grid-gap: 20px;
-    
 }
 
 .logo img{
     width: 130px;
 }
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 0px;
+    background-color: #ffffff;
+  }
